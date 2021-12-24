@@ -1,20 +1,206 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
     <title>UX/UI Homework 20</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-
 </head>   
 <body>
+    <!-- Bootstrap navbar here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Drive a Senior Northwest</a>
+            <a class="dropdown-item" href="#">Gooday App</a>
+            <a class="dropdown-item" href="#">Department of Homeland Security</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Resume</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      </div>
+      </nav>
+    
+<!-- Bootstrap Jumbotron-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Drive a Senior Northwest Case Study</h1>
+          <p class="lead">Drive a Senior Northwest is a non-profit organization in Austin, Texas whose mission is to enable senior citizens to remain in their own homes longer. In the end, our team provided a clean, pared-back design with clear calls-to-action throughout. </p>
+        </div>
+      </div>
+<!-- Bootstrap nav for Drive a Senior-->
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Drive a Senior Northwest</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">The Problem</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Testing and Iteration</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Prototype</a>
+          </li>
+      </ul>
 
-</body> 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <!-- Bootstrap Research section-->
+      <div class="card">
+        <div class="card-body">
+            We were a team of 3 people. I played the role of Project Manager and we equally shared UX/UI responsibilities.
+
+            I specialized in the user interviews, testing and screen design.
+            
+            Others honed in more on interaction design and the creation of other UX assets like personas, user journeys and storyboards.
+        </div>
+        <div class="card-body">
+            We started with 2 ethnographic research interviews of the current website, followed by 15 1:1 interviews semi-structured user tests, then a 10-question quantitative survey via Google forms which had 20+ respondents and 5 client stakholder interviews..
+        </div>
+        <div class="card-body">
+            All of this research allowed us to ideate on two main user personas; a senior citizen who needs to be driven to different places such as medical appointments and a middle-aged person who would primarily be in charge of booking appointments for the senior.
+            As a team, we did a redline-annotation of the current website, highlighting issues, created two user personas, crafted a User Journey which helped us to form a value proposition. 
+        </div>
+        <div class="card-body">
+            <bold>Value Proposition</bold>
+            Drive a Senior NW helps elders regain their independence and provides volunteer community members by providing a platform that allows neighbors to help neighbors by donating their time, money, and cars. 
+            
+            This allows seniors and their families feel safe and empowered to live independently in their homes longer. Additionally, volunteers feel that they are making an impact in their community.
+        </div>
+
+      </div>
+ <!-- Bootstrap Problem section-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">The Problem</h1>
+          <p class="lead">The previous website was too busy and users found it confusing to navigate, resulting in less volunteers and donations than what this community needs. Without enough volunteers, seniors in the Northwest region of Austin may not be able to stay independent, living in their own homes for as long as they would like to.</p>
+        </div>
+      </div>
+  <!-- Bootstrap ideation section-->     
+      <div class="card">
+      <div class="card-body">
+        <bold>Ideation</bold>
+        Alongside doing a compeitive analysis, we reviewed user data and ideated on Miro, resulting in a feature prioritization matrix which helped us hone in on what was essential for the site.
+        This knowledge helped guide us in our card sorting activities which would then inform how our sitemap would be built. 
+    </div>
+
+    </div>
+<!-- Bootstrap Iteration section-->
+      <div class="card">
+        <div class="card-body">
+            We then all drew paper prototypes and came back together to take what we saw as the most usable bits of each to form one low-fi clickable prototype. 
+        </div>
+        <div class="card-body">
+            We tested this prototype with 5 users, who gave us invaluable feedback on tweaking our UX copy and a few navigational issues. 
+
+We asked users to find a way to donate, to see if they could get to the volunteer page and then just allowed the to talk us through what they would generally wish to explore next in the site.
+          </div>
+          <div class="card-body">
+            Some of the positive insights we that people found the design to be simple and were all able to successfully complete the two required tasks. People also enjoyed having a look around at what else the site offered and found it to be a great concept.
+          </div>
+          <div class="card-body">
+            Some of the constructive feedback was that some of our UX copy was a bit confusing, for example ‘get ride’ and ‘give back’ made so much sense to us in our card sorting exercise but in reality, people were a bit hesitant to click on them as it wasn’t inherently clear as to what these terms meant. 
+
+So, we went back and did some iterations based on this feedback before getting into the mid-fidelity testing.
+          </div>
+          <div class="card-body">
+            During the mid-fidelity testing, we tested clickable prototypes for mobile phone and also desktop.
+
+Based on our stakeholder interviews, we knew that although desktop was what most of their users were accustomed to but we still wanted to be able to provide options for future, mobile-based users. The mid-fi testing gave us some really valuable feedback.
+          </div>
+          <div class="card-body">
+            
+An example of some of the feedback was
+They loved seeing persistent donation and volunteer calls to action (as this was important to the stakeholders)
+The new UX copy we had written was much more clear
+But, we needed to swap around a few pages to incorporate all types of volunteering into one area. For example, we previously had ‘handyman services’ under ‘other services’ but after testing, it just made sense to group all types of volunteer services into one area
+There were also a few broken links here and there that we didn’t pick up earlier
+          </div>
+          <div class="card-body">
+            It was also important to us to test with at least one stakeholder from Drive a Senior Northwest, so we tested the mid-fidelity desktop with Pastor Wynn from Bethany United Methodist Church, who is a regular promoter of this website to senior members of her congregation. 
+
+Pastor Wynn gave awesome feedback about what she would like to see, such as a clear differentiator between donating money and donating time. 
+
+So, this feedback inspired us to add an extra page and buttons to make things more clear to future users.
+          </div>
+
+      </div>
+<!-- Bootstrap Prototype section-->
+<div class="card">
+    <div class="card-body">
+        <div class="card">
+            <div class="card-body">
+                One of our biggest discoveries during the project was that the website we were improving was, in fact, not “Uber for seniors.” At first, we believed that the service was somewhat like Uber, where a user could schedule a ride for immediate pickup. 
+
+In practice, our site is more like a portal that connects seniors to a network of volunteers who are only able to give rides during certain times, depending on the volume of volunteers and their schedules. 
+
+The take-home from this is clear: Sometimes, even if you think you know what a redesign should entail, the focus should always be the user and their needs. 
+            </div>
+        <div class="card-body">
+            In the future, it would still be nice to be able to have users schedule instant rides. One can imagine a real-time map that shows the location of the driver, or at least a feed of sorts that shows when the user scheduled the ride, when they were picked up, and when they were dropped off.
+
+            In this way, we were able to create a website that met many different user needs, rather than the more narrow conception that we initially had. After some revisions, we arrived at a website that the client is very happy with and I am thrilled to report that the design is currently being developed.
+        </div>
+        <div class="card-body">
+                What was delivered in the end was a full clickable prototype for the desktop version of the site alongside responsive web design screens for tablet and mobile phone devices, all in 3 weeks!
+        </div>
+          </div>
+    </div>
+  </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            1 of 2
+          </div>
+          <div class="col">
+            2 of 2
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            1 of 3
+          </div>
+          <div class="col">
+            2 of 3
+          </div>
+          <div class="col">
+            3 of 3
+          </div>
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
 </html>
